@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 250" width="100%" height="100%">
+  <defs>
+    <linearGradient id="doonGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF6B00"/>
+      <stop offset="50%" stop-color="#FF5500"/>
+      <stop offset="100%" stop-color="#E64A00"/>
+    </linearGradient>
+    <filter id="glow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000000" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+  
+  <rect width="800" height="250" rx="16" fill="url(#doonGrad)"/>
+  <path d="M0,0 L800,250 M-200,0 L600,250 M200,0 L1000,250" stroke="rgba(255,255,255,0.06)" stroke-width="40" stroke-linecap="round"/>
+
+  <g fill="#FFFFFF" filter="url(#glow)">
+    <!-- D -->
+    <path d="M 90,60 L 175,60 L 215,100 L 215,150 L 175,190 L 90,190 Z M 130,95 L 160,95 L 180,115 L 180,135 L 160,155 L 130,155 Z" fill-rule="evenodd"/>
+    <!-- O1 -->
+    <path d="M 310,60 L 375,100 L 375,150 L 310,190 L 245,150 L 245,100 Z M 310,95 L 345,115 L 345,135 L 310,155 L 275,135 L 275,115 Z" fill-rule="evenodd"/>
+    <!-- O2 -->
+    <path d="M 470,60 L 535,100 L 535,150 L 470,190 L 405,150 L 405,100 Z M 470,95 L 505,115 L 505,135 L 470,155 L 435,135 L 435,115 Z" fill-rule="evenodd"/>
+    <!-- N -->
+    <path d="M 565,60 L 605,60 L 665,145 L 665,60 L 705,60 L 705,190 L 665,190 L 605,105 L 605,190 L 565,190 Z"/>
+  </g>
+</svg>
